@@ -82,7 +82,7 @@ export function ChatBotInterface({
     setIsLoading(true);
 
     try {
-     const res = await fetch("https://<your-render-backend>.onrender.com/chat", {
+     const res = await fetch("https://talk-like-u-backend.onrender.com/chat", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
